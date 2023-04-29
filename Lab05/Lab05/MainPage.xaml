@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab05.MainPage">
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="Item3" Text="Datepicker"/>
+            <Button x:Name="Item14" Text="ListviewSource"/>
+        </StackLayout>
+        <Grid RowSpacing="3" ColumnSpacing="3">
+            <Button x:Name="Item1" Text="ButtonDemo" Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="Item2" Text="ButtonCode" Grid.Row="1" Grid.Column="0"/>
+            <Button x:Name="Item4" Text="EditorDemo" Grid.Row="2" Grid.Column="0"/>
+            <Button x:Name="Item5" Text="EditorCode" Grid.Row="3" Grid.Column="0"/>
+            <Button x:Name="Item6" Text="EntryDemo" Grid.Row="4" Grid.Column="0"/>
+            <Button x:Name="Item7" Text="EntryCode" Grid.Row="5" Grid.Column="0"/>
+
+            <Button x:Name="Item8" Text="LabelDemo" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="Item9" Text="LabelCode" Grid.Row="1" Grid.Column="1"/>
+            <Button x:Name="Item10" Text="ImageDemo" Grid.Row="2" Grid.Column="1"/>
+            <Button x:Name="Item11" Text="EmbeddedImage" Grid.Row="3" Grid.Column="1"/>
+
+            <Label Grid.Row="2" Grid.ColumnSpan="3"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
